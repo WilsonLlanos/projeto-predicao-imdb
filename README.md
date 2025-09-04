@@ -1,15 +1,15 @@
 # Análise de Dados Cinematográficos e Previsão de Nota IMDB
 
-## 🎯 Objetivo
+##  Objetivo
 
 O objetivo é realizar uma análise em um banco de dados cinematográfico para orientar o estúdio sobre o tipo de filme a ser desenvolvido, com baseado em fatores que aumentam as chances de sucesso financeiro e aprovação na crítica do público. Foi construído um modelo de Machine Learning para prever a nota do IMDB de um filme com base em suas características.
 
-## 🛠️ Ferramentas Utilizadas
+##  Ferramentas Utilizadas
 * **Linguagem:** Python 3
 * **Bibliotecas Principais:** Pandas, Matplotlib, Seaborn, Scikit-learn, WordCloud
 * **Ambiente:** Google Colab
 
-## 📂 Estrutura do Repositório
+##  Estrutura do Repositório
 O projeto está organizado da seguinte forma:
 - `PProductions.ipynb`: Notebook principal contendo toda a análise exploratória, pré-processamento e modelagem.
 - `model.pkl`: Modelo de regressão (Random Forest) treinado e salvo, pronto para fazer previsões.
@@ -17,7 +17,7 @@ O projeto está organizado da seguinte forma:
 - `requirements.txt`: Lista de dependências do Python para recriar o ambiente de execução.
 - `README.md`: Este arquivo.
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 1. **Clone o repositório (opcional):**
    ```bash
@@ -30,7 +30,7 @@ O projeto está organizado da seguinte forma:
 3. **Execute o Notebook:**
    Abra o arquivo `.ipynb` em um ambiente Jupyter (como Jupyter Notebook, Jupyter Lab ou Google Colab) e execute as células em ordem.
 
-## 📊 Análise e Metodologia
+##  Análise e Metodologia
 
 ### Análise Exploratória de Dados (EDA)
 A análise inicial revelou que os gêneros de **Ação** e **Aventura** são os que alcançam os maiores picos de faturamento e popularidade. Em contraste, **Drama** и **Biografia** são os gêneros com as maiores notas médias de crítica e público, porém com um teto de faturamento mais baixo.
